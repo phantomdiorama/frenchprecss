@@ -1,0 +1,67 @@
+body {
+  background-color: #F7F3EE;
+  color: #000;
+  font-family: 'Source Code Pro', ui-monospace, 'Cascadia Code', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+  font-size: 1.150em;
+  line-height: 1.5;
+  margin: 0 auto;
+  max-width: 40em;
+  padding: 0 1em;
+}
+h1, h2, h3, h4, h5, h6 {
+  background: #F1DDF2;
+  margin: 1.25em 0 0.5em 0;
+  font-size: 1.150em;
+  line-height: 1.7;
+}
+a:link, a:visited, a:focus, a:hover, a:active {
+  background: #DDE4F3;
+  color: #000;
+  text-decoration: none;
+}
+a:visited {
+  color: #000;
+}
+a:focus, a:hover {
+  color: #000;
+}
+a:active {
+  color: #e00;
+}
+img {
+  max-width: 100%;
+}
+figure {
+  margin: 1em 0;
+  text-align: center;
+}
+figcaption {
+  font-size: small;
+}
+/* pre, code, samp, kbd { */
+/*   font-family: monospace, monospace; */
+/* } */
+/* pre, code, kbd { */
+/*   background-color: #FAE3C4; */
+/* } */
+/* samp { */
+/*   color: #730; */
+/* } */
+pre {
+  background: #FAE3C4;
+  padding: 0.5em;
+  overflow: auto;
+}
+blockquote {
+  background: #E2EABF;
+  /* border-left: medium solid #ccc; */
+  margin: 1em 0;
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  border: thin solid #999;
+  padding: 0.3em 0.4em;
+  text-align: left;
+}
